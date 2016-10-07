@@ -1,0 +1,30 @@
+set variable name
+  (a)
+  set other variable name
+  (convert)
+
+If user types >10 && <19 degrees C,
+result is fall image
+and converts to F
+
+If user types <11 degrees C, 
+result is winter image
+and converts to F
+
+If user types >18 && <24 degrees C,
+result is spring image
+and converts to F
+
+If user types >23 degrees C,
+result is summer image
+and converts to F
+
+
+
+Getting a reference to the #Temp button to display temperature from Celcius to Farenheight
+
+
+
+
+ 
+

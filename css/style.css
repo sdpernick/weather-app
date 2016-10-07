@@ -1,0 +1,67 @@
+header {
+	font-size: 30px;
+	text-align: center;
+	background-color: white;
+	border: 1px solid white;
+	margin-right: 460px;
+	margin-left: 460px;
+}
+
+#temp {
+    font-size: 20px;
+	text-align: center;
+	width: 25%;
+	margin: 20px 470px 20px;
+	padding: 10px;
+    border:solid 1px #fff;
+    outline: 0;
+    border-radius: 15px;
+}
+
+#temp:hover { 
+  color: #fff;
+  background-color: grey;
+}
+
+#inputs {
+  margin-bottom: 30px;
+}
+
+#results {
+	text-align: center;
+}
+
+input {
+  width: 60px;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  margin: 40px 580px 0;
+}
+
+#cel {
+	font-size: 20px;
+	text-align: center;
+	background-color: white;
+	border: 1px solid white;
+	margin-right: 520px;
+	margin-left: 520px;
+}
+
+#fah {
+	font-size: 20px;
+	text-align: center;
+	margin-left: 530px;
+	background-color: white;
+	border: 1px solid white;
+	margin-right: 510px;
+	margin-left: 520px;
+}
+
+h2 {
+	background-color: white;
+	border: 1px solid white;
+	margin-right: 500px;
+	margin-left: 510px;
+}
+

@@ -7,6 +7,11 @@ header {
 	margin-left: 460px;
 }
 
+body {
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
 #temp {
     font-size: 20px;
 	text-align: center;
@@ -64,4 +69,6 @@ h2 {
 	margin-right: 500px;
 	margin-left: 510px;
 }
+
+
 

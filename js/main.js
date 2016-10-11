@@ -5,24 +5,24 @@ document.getElementById("temp").onclick = function() {
 	a = parseInt(document.getElementById("a").value);
 	convert = a*1.8+32;
 	document.getElementById("results").innerHTML = convert;
-	compare()
+	compare();
 }
 
 
 function compare () {
 
-if( (a > 10) && (a < 19) ) {
-        document.body.style.backgroundImage ="url('fall.jpeg')";
+if( (a >= 11) && (a < 18) ) {
+        document.body.style.backgroundImage ="url('images/fall.jpeg')";
     }
     else if (a < 11) {
-    	document.body.style.backgroundImage ="url('winter.jpeg')";
+    	document.body.style.backgroundImage ="url('images/winter.jpeg')";
     }
-    else if ( (a > 18) && (a < 24) ) {
-    	document.body.style.backgroundImage ="url('spring.jpeg')";
+    else if ( (a >= 18) && (a <= 23) ) {
+    	document.body.style.backgroundImage ="url('images/spring.jpeg')";
     }
 
     else if (a > 23) {
-    	document.body.style.backgroundImage ="url('summer.jpg')";
+    	document.body.style.backgroundImage ="url('images/summer.jpg')";
     }
 
 }
